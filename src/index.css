@@ -32,9 +32,16 @@ ul {
 	text-align: center;
 	width: 34px;
 }
+.winner {
+	background: lime;
+}
 
 .square :focus {
 	outline: none;
+}
+
+.active {
+	font-weight: 900;
 }
 
 .kdb-navigation .square :focus {
